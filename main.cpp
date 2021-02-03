@@ -3,7 +3,7 @@
 using namespace std;
 
  void printName(){
-     cout << "Jameson Stahl" << endl;
+     cout << "Jameson Lawrence Stahl" << endl;
 }
 
 int main(int argc, const char * argv[]) {
