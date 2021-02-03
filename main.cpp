@@ -2,13 +2,15 @@
 
 using namespace std;
 
- void printName(){
-     cout << "Jameson Stahl" << endl;
+ void printName(int year){
+     cout << "Jameson Stahl " << (year - 2000) << endl;
 }
 
 int main(int argc, const char * argv[]) {
-    
-    printName();
+    int year;
+    cout << "Enter a year: ";
+    cin >> year;
+    printName(year);
 
     return 0;
 }
